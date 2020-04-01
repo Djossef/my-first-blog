@@ -29,10 +29,9 @@
     <link rel="stylesheet" href="{% static 'css/custom.css' %}">
 	<script src="{% static 'js/modernizr.js' %}"></script> <!-- Modernizr -->
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static 'css/social.css' %}">
 
 </head>
 <body id="page-top" class="politics_version">
@@ -72,8 +71,8 @@
 			<h3 class="cd-headline clip is-full-width">
 				<span>CS Student</span>
 				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="#">Get started</a>
-					<a class="learn_btn hvr-bounce-to-top" href="#">Learn More</a>
+					<a class="get_btn hvr-bounce-to-top" href="#">My Posts</a>
+					<a class="learn_btn hvr-bounce-to-top" href="#about">About me</a>
 				</div>
 			</h3>
 		</div>
@@ -85,15 +84,17 @@
                 <div class="col-md-6">
                     <div class="message-box">
                         <h2>About me :</h2>
-                        <p>My name is Youssef Moussaaif, I am 21 years old, I am a computer science student studying software engineering in National School of Applied Sciences in Agadir</p>
+                        <p>My name is Youssef Moussaaif, I am 21 years old, I am a computer science student studying software engineering in National School of Applied Sciences in Agadir.</p>
+                        <p>I am a coding lover, I like coding any language especially python which is my sweetheart!! and of course other programming languages.</p>
+                        <p>If you want to know more about my interests d'ont hesitate to contact me by sending me an email or contact me via my Facebook, Instagram and LinkedIn accounts.</p>
 
-                        <a href="#" class="sim-btn hvr-bounce-to-top"><span>Contact Us</span></a>
+                        <a href="#contact" class="sim-btn hvr-bounce-to-top"><span>Contact Me</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 
                 <div class="col-md-6">
                     <div class="right-box-pro wow fadeIn">
-                        <img src="{% static 'uploads/about_04.jpg' %}" alt="" class="img-fluid img-rounded">
+                        <img src="{% static 'uploads/python.png' %}" alt="" class="img-fluid img-rounded" width="100%">
                     </div><!-- end media -->
                 </div><!-- end col -->
             </div><!-- end row -->
@@ -108,7 +109,7 @@
         <div class="container">
             <div class="section-title text-center">
                 <h3>Contact</h3>
-                <p>Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus.</p>
+                <p>Enjoy sending me emails: </p>
             </div><!-- end title -->
 
             <div class="row">
@@ -158,13 +159,23 @@
                     <p class="footer-links">
                         <a href="#">Home</a>
                         <a href="#">Blog</a>
-                        <a href="#">Pricing</a>
-                        <a href="#">About</a>
-                        <a href="#">Faq</a>
                         <a href="#">Contact</a>
                     </p>
-                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">OnNext</a> Design By :
-					<a href="https://html.design/">html design</a></p>
+
+    <div class="container1">
+    <div class="row">
+      <div>
+        <ul class="social-network social-circle">
+          <li><a href="https://web.facebook.com/youssef.soso.94043" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/youssef_msf/" class="icoInstagram" title="Instagram"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/youssef-moussaaif-6570a4189/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2020, created By :
+					<a href="#">Djossef</a>
                 </div>
             </div>
         </div><!-- end container -->
@@ -173,18 +184,18 @@
     <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
+    <script src="{% static 'js/all.js' %}"></script>
 	<!-- Camera Slider -->
-	<script src="js/jquery.mobile.customized.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/parallaxie.js"></script>
-	<script src="js/headline.js"></script>
+	<script src="{% static 'js/jquery.mobile.customized.min.js'%}"></script>
+	<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+	<script src="{% static 'js/parallaxie.js' %}"></script>
+	<script src="{% static 'js/headline.js' %}"></script>
 	<!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+    <script src="{% static 'js/contact_me.js' %}"></script>
     <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-    <script src="js/jquery.vide.js"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+    <script src="{% static 'js/jquery.vide.js' %}"></script>
 
 </body>
 </html>
