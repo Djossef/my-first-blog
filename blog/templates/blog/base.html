@@ -1,0 +1,177 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>Home</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon"/>
+<link rel="apple-touch-icon" href="{% static 'images/apple-touch-icon.png' %}">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+<!-- Site CSS -->
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{% static 'css/custom.css' %}">
+<script src="{% static 'js/modernizr.js' %}"></script> <!-- Modernizr -->
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'css/social.css' %}">
+
+</head>
+<body id="page-top" class="politics_version">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <img class="img-fluid" src="{% static 'images/YOUSSEF.png' %}" alt="" width="100"/>
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger active" href="/">Home</a>
+                </li>
+                <li>
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="/blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+{% block content %}
+
+{% endblock %}
+
+<div id="contact" class="section db">
+    <div class="container">
+        <div class="section-title text-center">
+            <h3>Contact</h3>
+            <p>Enjoy sending me emails: </p>
+        </div><!-- end title -->
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact_form">
+                    <div id="message"></div>
+                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" id="name" type="text" placeholder="Your Name"
+                                           required="required"
+                                           data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="email" type="email" placeholder="Your Email"
+                                           required="required"
+                                           data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone"
+                                           required="required"
+                                           data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" id="message" placeholder="Your Message"
+                                              required="required"
+                                              data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button id="sendMessageButton" class="sim-btn hvr-bounce-to-top" type="submit">Send
+                                    Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- end col -->
+        </div><!-- end row -->
+    </div><!-- end container -->
+</div><!-- end section -->
+
+<div class="copyrights">
+    <div class="container">
+        <div class="footer-distributed">
+            <a href="#"><img src="images/logo.png" alt=""/></a>
+            <div class="footer-center">
+                <p class="footer-links">
+                    <a href="/">Home</a>
+                    <a href="/blog">Blog</a>
+                    <a href="#contact">Contact</a>
+                </p>
+
+                <div class="container1" style="margin-left:43%; margin-right:43%;">
+                    <div class="row">
+                        <div>
+                            <ul class="social-network social-circle">
+                                <li><a href="https://web.facebook.com/youssef.soso.94043" class="icoFacebook"
+                                       title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/youssef_msf/" class="icoInstagram"
+                                       title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/youssef-moussaaif-6570a4189/"
+                                       class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="footer-company-name">All Rights Reserved. &copy; 2020, created By :
+                    <a href="#">Djossef</a>
+            </div>
+        </div>
+    </div><!-- end container -->
+</div><!-- end copyrights -->
+
+<a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+<!-- ALL JS FILES -->
+<script src="{% static 'js/all.js' %}"></script>
+<!-- Camera Slider -->
+<script src="{% static 'js/jquery.mobile.customized.min.js'%}"></script>
+<script src="{% static 'js/jquery.easing.1.3.js' %}"></script>
+<script src="{% static 'js/parallaxie.js' %}"></script>
+<script src="{% static 'js/headline.js' %}"></script>
+<!-- Contact form JavaScript -->
+<script src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+<script src="{% static 'js/contact_me.js' %}"></script>
+<!-- ALL PLUGINS -->
+<script src="{% static 'js/custom.js' %}"></script>
+<script src="{% static 'js/jquery.vide.js' %}"></script>
+
+</body>
+</html>

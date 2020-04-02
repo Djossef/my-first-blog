@@ -1,0 +1,48 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+		<div class="heading">
+			<h1>I'm YOUSSEF MOUSSAAIF</h1>
+			<h3 class="cd-headline clip is-full-width">
+				<span>CS Student</span>
+				<div class="btn-ber">
+					<a class="get_btn hvr-bounce-to-top" href="#">My Posts</a>
+					<a class="learn_btn hvr-bounce-to-top" href="#about">About me</a>
+				</div>
+			</h3>
+		</div>
+	</section>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">
+                        <h2>About me :</h2>
+                        <p>My name is Youssef Moussaaif, I am 21 years old, I am a computer science student studying software engineering in National School of Applied Sciences in Agadir.</p>
+                        <p>I am a coding lover, I like coding any language especially python which is my sweetheart!! and of course other programming languages.</p>
+                        <p>If you want to know more about my interests d'ont hesitate to contact me by sending me an email or contact me via my Facebook, Instagram and LinkedIn accounts.</p>
+
+                        <a href="#contact" class="sim-btn hvr-bounce-to-top"><span>Contact Me</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="{% static 'uploads/python.png' %}" alt="" class="img-fluid img-rounded" width="100%">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+
+
+
+
+
+
+{% endblock %}

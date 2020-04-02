@@ -30,11 +30,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/images" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\PycharmProjects\MyBlog\blog\static\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Home\PycharmProjects\MyBlog\blog\static\images" />
       <recent name="C:\Users\Home\PycharmProjects\MyBlog\blog\static" />
       <recent name="C:\Users\Home\PycharmProjects\MyBlog\blog\static\css" />
     </key>
@@ -61,5 +65,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="31" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585750309209" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585785195689">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1585785195689" />
   </component>
 </project>
