@@ -3,46 +3,119 @@
 
 {% block content %}
 
-	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
-		<div class="heading">
-			<h1>I'm YOUSSEF MOUSSAAIF</h1>
-			<h3 class="cd-headline clip is-full-width">
-				<span>CS Student</span>
-				<div class="btn-ber">
-					<a class="get_btn hvr-bounce-to-top" href="/blog">My Posts</a>
-					<a class="learn_btn hvr-bounce-to-top" href="#about">About me</a>
-				</div>
-			</h3>
-		</div>
-	</section>
+<title>Home</title>
+<div class="jumbotron">
+    <div class="container-fluid">
+        <!--create feachered part-->
+        <div class="featured">
+            <!--create a row to use the grid system-->
 
-    <div id="about" class="section wb">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="message-box">
-                        <h2>About me :</h2>
-                        <p>My name is Youssef Moussaaif, I am 21 years old, I am a computer science student studying software engineering in National School of Applied Sciences in Agadir.</p>
-                        <p>I am a coding lover, I like coding any language especially python which is my sweetheart!! and of course other programming languages.</p>
-                        <p>If you want to know more about my interests d'ont hesitate to contact me by sending me an email or contact me via my Facebook, Instagram and LinkedIn accounts.</p>
+            <div id="head">
+                <h1>I'm Youssef Moussaaif</h1>
 
-                        <a href="#contact" class="sim-btn hvr-bounce-to-top"><span>Contact Me</span></a>
-                    </div><!-- end messagebox -->
-                </div><!-- end col -->
+                <p id="parag1">A CS student</p>
+                <p id="parag2">Problem solver</p>
+            </div>
 
-                <div class="col-md-6">
-                    <div class="right-box-pro wow fadeIn">
-                        <img src="{% static 'uploads/python.png' %}" alt="" class="img-fluid img-rounded" width="100%">
-                    </div><!-- end media -->
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+            <div id="myDialog" title="Hey, Thank you !!">
+                <p>You want to know more about me !!! THank you :)</p>
+            </div>
+            <p id="morebtn">
+                <a href="#" class="btn btn-dark" id="open">More about me ??</a>
+            </p>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container-fluid badge-light" id="about">
+    <h1>About me : </h1>
+    <img src="{% static 'images/profile20.jpg' %}" class="profile rounded-circle">
+    <p>
+        Hey Thank you for reading this, so my name is Youssef Moussaaif, I am 21 years old, I am a software engineering student at National School Of Applied Sciences in Agadir.
+    </p>
+    <p>
+        I am based in Tata city, I love everything related with Tech especially coding and trying new things.
+    </p>
+    <p>
+        For the programming languages that I am intersted in are: Python, Java, C++, Javascript...
+    </p>
+    <p>
+        This blog is my first deployment ever, I give it much time even if it is not such I wanted it but I think I am satisfied now regarding this little work.
+    </p>
+    <p>
+        I have other mini works that I will share in my gitHub so don't miss them and also don't forget to have a look at my social media accounts, you will find them below in the contact section.
+    </p>
+    <p>
+        Thanks for reading till here and I wish you like my blog :)
+    </p>
+    <p>
+        ***Don't miss the subscription below ***.
+    </p>
+
+</div>
+
+<!--
+
+-->
 
 
+<div id="experience" class="badge-light">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-center">My Limited Experience</h2>
+                <p class="text-center tag-line">On my way for developping myself.</p>
+            </div>
+        </div>
+        <div class="row" id="exinline">
+            <div class="col-md-3 text-center experience-topics">
+                <i class="fi-laptop"></i>
+                <h3>Front-end</h3>
+                <ul>
+                    <li>html(5)</li>
+                    <li>css(3)</li>
+                    <li>Javascript</li>
+                    <li>Bootstrap</li>
+                    <li>jQUERY</li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center experience-topics">
+                <i class="fi-database"></i>
+                <h3>Back-end</h3>
+                <ul>
+                    <li>Django | Python</li>
+                    <li>PHP</li>
+                    <li>SQL</li>
+                    <li>MySQL</li>
+                    <li>SQLlite</li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center experience-topics">
+                <i class="fi-monitor"></i>
+                <h3>Desktop</h3>
+                <ul>
+                    <li>Tkinter(Python)</li>
+                    <li>IntelliJ GUI (forms)</li>
+                    <li>Java FX</li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center experience-topics">
+                <i class="fi-checkbox"></i>
+                <h3>Tools & IDEs</h3>
+                <ul>
+                    <li>Vim</li>
+                    <li>Github</li>
+                    <li>VS Code</li>
+                    <li>PyCharm</li>
+                    <li>IntelliJ</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-
-
+</div>
 
 
 {% endblock %}

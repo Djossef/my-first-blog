@@ -1,59 +1,29 @@
 {% extends 'blog/base.html' %}
+{% load static %}
 
 {% block content %}
-<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latinext" rel="stylesheet" type="text/css">
 
-    <style>
-        .titlePost{
-            padding:0.75%;
-            color: black;
-            border-style: solid;
-            border-radius: 10px;
-            font-size:200%;
-            font-family: 'Lobster';
-            margin-left: 30%;
-            margin-right: 30%;
-        }
 
-        .textPost{
-            background:linear-gradient(white,gray);
-            color:black;
-            font-size:200%;
-            margin-left:13%;
-            margin-right:13%;
-            border-style:solid;
-            border-radius:20px;
-        }
-
-        .pubdate{
-            font-size: 200%;
-        }
-
-        #pencil{
-            font-size:300%;
-            float: right;
-            margin-right:10%;
-            color:black;
-        }
-    </style>
-
+<title>Posts</title>
+<div class="container-fluid">
     {% for post in posts %}
-	<br><br><br><br>
-    <!------ Include the above in your HEAD tag ---------->
-    <div>
-        <h1 class="titlePost"> {{ post.title }} </h1>
-        <i><b><label class="pubdate">Published on:  &nbsp;{{ post.published_date }} </label></b></i>
-        <p class="textPost"> {{ post.text }} </p>
-        <span id="pencil">Youssef &#9998;</span>
 
+
+    <hr>
+    <div class="container border-light" id="post">
+        <h1>{{ post.title }}</h1>
+        <h3>{{ post.published_date }}</h3>
+        <img src="{{ post.image.url }}" class="rounded-circle">
+        <p>
+            {{ post.text }}
+        </p>
+        <i class="fi-pencil">Youssef</i>
+        <a href=""><i class="fi-like" id="like"></i></a><span id="likes">{{ post.likes }}</span>
+        <a href=""><i class="fi-dislike" id="dislike"></i></a><span id="dislikes">{{ post.dislikes }}</span>
     </div>
 
-        {% endfor %}
+    {% endfor %}
+</div>
 
-</section>
 
 {% endblock %}

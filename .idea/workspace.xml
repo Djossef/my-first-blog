@@ -2,10 +2,470 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58d0a8c-2310-4922-bf54-422f58f079a5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0002_post_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0003_auto_20200418_1633.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0004_auto_20200418_1645.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/migrations/0005_auto_20200418_1647.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/.fontcustom-data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/foundation-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/foundation-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/foundation-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/foundation-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/foundation-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-address-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-anchor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-annotate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrows-compress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrows-expand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrows-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-arrows-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-asl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-asterisk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-at-sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-background-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-battery-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-battery-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-battery-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-bitcoin-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-blind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-book-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-braille.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-burst-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-burst-sale.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-burst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-clipboard-notes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-clipboard-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-closed-caption.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-comment-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-comment-quotes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-comment-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-contrast.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-database.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-five.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-four.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-one.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-six.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-three.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-die-two.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-dollar-bill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-elevator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-euro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-fast-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-female-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-first-aid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-folder-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-folder-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-foot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-foundation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-graph-bar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-graph-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-graph-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-graph-trend.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-guide-dog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-hearing-aid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-indent-less.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-indent-more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-layout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-lightbulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-list-bullet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-list-number.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-list-thumbnails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-magnifying-glass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-male-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-male-symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-megaphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-minus-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-mobile-signal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-monitor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-mountains.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-no-dogs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-no-smoking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-add.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-copy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-csv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-delete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-export-csv.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-export-doc.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-export-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-export.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-filled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-multiple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-pdf.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-remove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page-search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-page.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-paint-bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-paperclip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-paw.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-paypal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-photo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-play-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-play-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-pound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-power.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-previous.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-price-tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-pricetag-multiple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-prohibited.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-projection-screen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-puzzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-quote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-record.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-refresh.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-results-demographics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-results.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-rewind-ten.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-rewind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-safety-cone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-sheriff-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-shopping-bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-skull.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-500px.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-adobe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-amazon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-behance.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-bing.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-blogger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-delicious.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-designer-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-deviant-art.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-digg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-evernote.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-forrst.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-foursquare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-game-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-google-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-hacker-news.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-hi5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-joomla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-lastfm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-medium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-myspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-orkut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-path.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-picasa.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-rdio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-skillshare.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-smashing-mag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-snapchat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-spotify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-squidoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-stack-overflow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-steam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-stumbleupon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-treehouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-windows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-xbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-yahoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-yelp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-zerply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-social-zurb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-sound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-subscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-superscript.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-tablet-landscape.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-tablet-portrait.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-target-two.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-telephone-accessible.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-telephone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-text-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-thumbnails.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torso-business.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torso-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torso.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torsos-all-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torsos-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torsos-female-male.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torsos-male-female.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-torsos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-trees.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-trophy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-universal-access.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-unlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-upload-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-usb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-volume-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-volume-strike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-web.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-widget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-wrench.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-x-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-x.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-yen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/fonts/foundation-icons/svgs/fi-zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/images/laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/images/profile20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/images/reduced-laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/external/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.structure.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery-ui.theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/scripts/animation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marketing/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/YOUSSEF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/YOUSSEF_AXtCSA7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/laptop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/laptop_RYUY53J.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/laptop_q53Rxxw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/profile20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/reduced-laptop.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/camera.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/social.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/css/versions.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/ccc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/country-quilt-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/default_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/sprite_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/sprite_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/default/sprite_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/facebook/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/prettyPhoto/light_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/images/rma.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/contact_me.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/headline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/hoverdir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/images-loded.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/isotope.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/jqBootstrapValidation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/jquery.vide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/parallaxie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/portfolio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/js/scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/about_04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/banner-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/blog-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/blog-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/blog-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/gallery_img-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/img-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/static/uploads/python.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +475,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -33,8 +493,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Products Manager" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -61,19 +523,22 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="279" y="143" key="FileChooserDialogImpl" timestamp="1586018201276">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="279" y="143" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1586018201276" />
-    <state x="0" y="31" key="SettingsEditor" timestamp="1585858003814">
+    <state x="0" y="31" key="SettingsEditor" timestamp="1587229647141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="0" y="31" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1585858003814" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1585952328245">
+    <state x="0" y="31" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587229647141" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1587215323916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1585952328244" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587215323916" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585785195689">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

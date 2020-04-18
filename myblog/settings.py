@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
+    'marketing',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +121,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = "/home/Djossef/my-first-blog/static"
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MAILCHIMP_API_KEY = '96e2681bf46819a6d3d8331bdd1841b9-us4'
+MAILCHIMP_DATA_CENTER = 'us4'
+MAILCHIMP_EMAIL_LIST_ID = '3086ca0ab4'

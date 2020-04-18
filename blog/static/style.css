@@ -1,0 +1,284 @@
+.jumbotron {
+    background: url('images/laptop.jpg');
+    background-size: 100% 100%;
+    height: 800px;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin-left: 2%;
+}
+
+#head {
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 5%;
+    height: 140px;
+}
+
+#parag1,
+#parag2 {
+    font-size: 20px;
+    display: none;
+}
+
+#about {
+    padding: 20px;
+}
+
+.footer {
+    background-color: #eee;
+    font-size: 15px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#morebtn {
+    text-align: center;
+    margin-right: 5%;
+    display: none;
+}
+
+.profile {
+    float: right;
+    height: 300px;
+}
+
+#experience {
+    background-image: none;
+    background-color: rgb(238, 236, 236);
+    background-size: 100% 100%;
+    text-align: center;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#experience h2 {
+    color: black;
+    margin-bottom: .7em;
+}
+
+#experience .tag-line {
+    color: black;
+    font-size: 1.4em;
+}
+
+#experience i {
+    text-align: center;
+    color: rgb(255, 138, 89);
+    font-size: 4em;
+}
+
+#experience h3 {
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+.experience-topics p {
+    text-align: center;
+    color: black;
+    font-family: "Maven pro", sans-serif;
+    /*font-weight: 500;*/
+}
+
+.experience-topics ul {
+    display: inline;
+}
+
+.experience-topics ul li {
+    text-align: center;
+    list-style: none;
+    color: gray;
+    font-family: "Maven pro", sans-serif;
+    font-weight: 500;
+}
+
+.jumbotron-fluid {
+    text-align: center;
+    background-color: rgb(200, 200, 200);
+    padding: 50px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact i {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5%;
+}
+
+.fi-social-instagram {
+    color: black;
+}
+
+.fi-social-linkedin {
+    color: black;
+}
+
+.fi-social-github {
+    color: black;
+}
+
+.fi-social-facebook {
+    color: black;
+}
+
+#contact h3 {
+    text-align: center;
+    color: rgb(100, 100, 100);
+}
+
+.contact-topics a {
+    display: inline;
+}
+
+#contact .col-md-3 {
+    margin-top: 50px;
+    width: 100;
+}
+
+.col-md-12 .btn {
+    margin-top: 0px;
+}
+
+#subscribe .container {
+    padding: 20px;
+    text-align: left;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#socialnetwork .container {
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    border-radius: 20px;
+}
+
+#toTop {
+    float: right;
+    font-size: 4em;
+    margin-right: 20px;
+    color: black;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* styling the posts page */
+
+#post {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 30px;
+    background-color: rgb(238, 236, 236);
+    border-radius: 20px;
+}
+
+#post h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+#post h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#post p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#likes {
+    border-radius: 50%;
+    background-color: rgb(29, 141, 216);
+    color: white;
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+
+#dislikes {
+    border-radius: 50%;
+    background-color: rgb(29, 141, 216);
+    color: white;
+    width: auto;
+    height: auto;
+    float: center;
+    text-align: center;
+    padding: 5px;
+}
+
+#post .fi-pencil {
+    float: right;
+    font-size: 1em;
+}
+
+#post img {
+    width: 400px;
+    height: auto;
+    float: right;
+    border: none;
+}
+
+#post a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#like,
+#dislike {
+    font-size: 3em;
+    float: center;
+    margin-right: 20px;
+}
+
+@media (max-width: 550px) {
+    #subscribe .container,
+    #socialnetwork .container {
+        width: auto;
+        height: auto;
+    }
+    .profile {
+        width: 200px;
+        height: 200px;
+    }
+    .jumbotron {
+        background: url(images/reduced-laptop.jpg);
+        background-size: 100% 100%;
+    }
+    #post img {
+        width: 200px;
+        float: right;
+    }
+}
+
+@media (min-width:780px) and (max-width: 1150px) {
+    #parag1,
+    #parag2 {
+        font-size: medium;
+    }
+    #head h1 {
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 780px) {
+    #parag1,
+    #parag2 {
+        font-size: medium;
+    }
+    #head h1 {
+        font-weight: bold;
+        font-size: 20px;
+    }
+}
