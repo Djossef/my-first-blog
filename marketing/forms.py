@@ -1,5 +1,5 @@
 from django import forms
-from .models import Signup
+from .models import Signup, Like
 
 
 class EmailSignupForm(forms.ModelForm):
@@ -13,3 +13,16 @@ class EmailSignupForm(forms.ModelForm):
     class Meta:
         model = Signup
         fields = ('email',)
+
+
+class LikeForm(forms.ModelForm):
+    likeField = forms.CharField(widget=forms.TextInput(attrs={
+        "id": "likeme",
+        "value": "done",
+        "placeholder": "youremail@exemple.smthng",
+        #"hidden": "hidden"
+    }), label="")
+
+    class Meta:
+        model = Like
+        fields = ('likeField',)

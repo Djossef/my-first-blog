@@ -7,3 +7,10 @@ class Signup(models.Model):
 
     def __str__(self):
         return self.email
+
+
+class Like(models.Model):
+    likeField = models.CharField(max_length=255)
+
+    def __str__(self):
+        return self.likeField

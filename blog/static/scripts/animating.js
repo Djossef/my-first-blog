@@ -24,4 +24,20 @@ $(function() {
         $("#myDialog").dialog("open");
     });
 
+
+    $("#likeDialog").dialog({
+        autoOpen: false,
+        buttons: {
+            cancel: function() {
+                $(this).dialog("close");
+                window.location.replace("/accounts/signup");
+            }
+        }
+    });
+
+    /*$("#liky").click(function() {
+        $("#likeDialog").dialog("open");
+    });*/
+
+
 });

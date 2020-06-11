@@ -18,11 +18,15 @@ from django.urls import path
 from django.conf.urls import include
 from django.conf import settings
 from django.conf.urls.static import static
+
+from blog.views import comment_Manip
 from marketing.views import email_list_signup
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('accounts/', include('allauth.urls')),
     path('subscribe/', email_list_signup, name='subscribe'),
+    path('comment/', comment_Manip, name='comment'),
     path('', include('blog.urls')),
 ]
 

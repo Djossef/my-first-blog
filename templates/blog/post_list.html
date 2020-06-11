@@ -1,0 +1,30 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+
+
+<title>Posts</title>
+
+<br><br><br><br>
+
+<div class="container">
+    {% for post in posts %}
+
+
+    <div class="card container" style="width: auto;">
+        <img class="card-img-top" src="{{ post.image.url }}" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{ post.title }}</h5>
+            <p class="card-text">{{ post.preview }} &nbsp;&nbsp; .....</p>
+            <a href="{% url 'post_detail' post_title=post.title %}" class="btn" style="background-color:grey;color:white;">Continue reading</a>
+        </div>
+    </div>
+    <br><br>
+
+    {% endfor %}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+{% endblock %}

@@ -1,0 +1,67 @@
+{% extends 'blog/base.html' %}
+{% load static %}
+
+{% block content %}
+<br><br><br><br>
+
+<style>
+        @media (max-width:600px){
+            #post_content{
+                font-size:15px;
+            }
+        }
+        @media (min-width:600px){
+            #post_content{
+                font-size:20px;
+            }
+        }
+
+
+
+</style>
+
+<div class="container">
+
+    <h2 class="text-center">{{ post.title }}</h2>
+    <img src="{{ post.image.url }}" class="container" height="500px"><br><br><br>
+    <div class="container">
+        <pre class="bg-light container" style="white-space:pre-wrap;width:auto;" id="post_content">
+            {{ post.text }}
+        </pre>
+
+
+        {% if user.is_authenticated %}
+        <form method="post" action="{% url 'comment' %}">
+
+            {% csrf_token %}
+
+            <label for="comment">Leave me a comment : </label>
+            <input type="text" class="form-control" id="comment" name="comment"
+                   placeholder="Write your comment here :)" required="required">
+            <input type="text" name="post_title" hidden="true" value="{{ post.title }}">
+            <input type="text" name="commenter" hidden="true" value="{{ user.username }}"><br>
+
+            <input type="submit" value="Send comment" class="bg-light form-control" style="width:150px"><br>
+
+        </form>
+        {% endif %}
+
+        {% for comment in comments %}
+        {% if comment.post.title in post.title %}
+        <div class="container" style="background-color: darkgrey;color: white;border-radius: 10px;padding: 10px;margin-bottom: 20px;">
+            <img src="{% static 'images/avatar.png' %}" width="30px" height="30px" style="margin-right: 15px;"><span style="font-size:20px;font-family: cursive;color: darkslategray;">{{ comment.commenter.username }}&nbsp;</span>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{ comment.comment }}
+                <br><br><br><span style="float:right;color: black;font-family: monospace;">{{ comment.date_comment }}</span>
+            </p>
+        </div>
+        <hr>
+        {% endif %}
+        {% endfor %}
+
+    </div>
+
+</div>
+
+
+{% endblock %}

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{% static 'style.css' %}">
     <link rel="stylesheet" href="{% static 'fonts/foundation-icons/foundation-icons.css' %}">
 
-    <link rel="shortcut icon" href="/static/images/barico.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/static/images/barico.ico" type="image/x-icon"/>
 </head>
 
 <body>
@@ -18,7 +18,14 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <a class="navbar-brand" href="/">
         <img src="{% static 'images/YOUSSEF.png' %}" class="logo">
+        {% if user.is_authenticated %}
+        <li class="navbar-brand">
+            <span>{{ user.username }}</span>
+            <i class="fas fa-circle" style="color: #00F800;font-size: 0.8em;"></i>
+        </li>
+        {% endif %}
     </a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,8 +41,26 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link " href="/blog">My posts</a>
+                <a class="nav-link " href="/blog"><i><strong>My posts</strong></i></a>
             </li>
+
+            {% if user.is_authenticated %}
+            <li class="nav-item">
+                <a class="nav-link" href="/accounts/logout">Logout</a>
+            </li>
+
+            {% else %}
+
+            <li class="nav-item">
+                <a class="nav-link" href="/accounts/signup">Sign up</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/accounts/login">Login</a>
+            </li>
+
+            {% endif %}
+
         </ul>
 
         <form class="form-inline my-2 my-lg-0">
@@ -79,7 +104,8 @@
                             <ul class="messages">
                                 {% for message in messages %}
                                 <li
-                                        {% if message.tags %} class="{{ message.tags }}" {% endif %} style="color: red; display: inline;">{{ message }}
+                                        {% if message.tags %} class="{{ message.tags }}" {% endif %}
+                                        style="color: red; display: inline;">{{ message }}
                                 </li>
                                 {% endfor %}
                             </ul>
@@ -90,13 +116,15 @@
                 <div id="socialnetwork" class="col-md-12">
                     <div class="container">
 
-                        <a href="https://www.linkedin.com/in/youssef-moussaaif-6570a4189/"><i class="fi-social-linkedin text-center"></i></a>
+                        <a href="https://www.linkedin.com/in/youssef-moussaaif-6570a4189/"><i
+                                class="fi-social-linkedin text-center"></i></a>
 
 
                         <a href="https://www.instagram.com/youssef_msf/"><i class="fi-social-instagram text-center"></i></a>
 
 
-                        <a href="https://web.facebook.com/youssef.soso.94043"><i class="fi-social-facebook text-center"></i></a>
+                        <a href="https://web.facebook.com/youssef.soso.94043"><i
+                                class="fi-social-facebook text-center"></i></a>
 
 
                         <a href="https://github.com/Djossef"><i class="fi-social-github text-center"></i></a>
@@ -129,7 +157,6 @@
 <script src="https://kit.fontawesome.com/c939d0e917.js"></script>
 <script src="{% static 'js/jquery.js' %}"></script>
 <script src="{% static 'js/bootstrap.min.js' %}"></script>
-<script src="{% static 'scripts/animation.js' %}"></script>
 <link rel="stylesheet" href="{% static 'js/jquery-ui.css' %}">
 <script src="{% static 'js/jquery-ui.js' %}"></script>
 <script src="{% static 'js/jquery-ui.min.js' %}"></script>
@@ -139,6 +166,7 @@
 <link rel="stylesheet" href="{% static 'js/jquery-ui.structure.css' %}">
 <link rel="stylesheet" href="{% static 'js/jquery-ui.structure.min.css' %}">
 <link rel="stylesheet" href="{% static 'js/jquery-ui.theme.min.css' %}">
+<script src="{% static 'scripts/animating.js' %}"></script>
 </body>
 
 </html>

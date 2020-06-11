@@ -1,8 +1,11 @@
 from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.conf import settings
-from .forms import EmailSignupForm
+from django.shortcuts import redirect
+
+from .forms import EmailSignupForm, LikeForm
 from .models import Signup
+from blog.models import Post
 
 import json
 import requests
@@ -39,3 +42,8 @@ def email_list_signup(request):
                 subscribe(form.instance.email)
                 form.save()
     return HttpResponseRedirect(request.META.get("HTTP_REFERER"))
+
+
+"""def manip_likes(request):
+    if request.method == "POST":
+        return redirect("/blog")"""
