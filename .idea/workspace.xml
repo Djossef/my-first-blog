@@ -2,92 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f58d0a8c-2310-4922-bf54-422f58f079a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0006_auto_20200604_2243.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0007_auto_20200609_1839.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0008_auto_20200609_1901.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0009_auto_20200609_1903.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0010_auto_20200609_1906.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0011_auto_20200611_0108.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0012_auto_20200611_0109.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0013_auto_20200611_0109.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0014_auto_20200611_0112.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0015_auto_20200611_0113.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0016_auto_20200611_0117.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0017_auto_20200611_0119.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0018_auto_20200611_0122.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0019_auto_20200611_0123.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0020_auto_20200611_0125.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/migrations/0021_auto_20200611_0126.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/images/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketing/migrations/0002_like.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/marketing/migrations/0003_auto_20200604_2243.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pics/BEAT.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pics/BEAT_-_Copie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/pics/YOUSSEF_fFlRWf0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/password_reset_key_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email/password_reset_key_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/cannot_delete_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/email_confirmation_sent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/email_confirmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/email_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/logged_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/logged_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/password_changed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/password_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/primary_email_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/messages/unverified_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/snippets/already_logged_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/account/verified_email_required.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/openid/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/openid/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/authentication_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/connections.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/login_cancelled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/messages/account_connected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/messages/account_connected_other.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/messages/account_connected_updated.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/messages/account_disconnected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/snippets/login_extra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/socialaccount/snippets/provider_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Home.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0003_auto_20200418_1633.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0004_auto_20200418_1645.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0005_auto_20200418_1647.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0006_auto_20200604_2243.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0007_auto_20200609_1839.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0008_auto_20200609_1901.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0009_auto_20200609_1903.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0010_auto_20200609_1906.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0011_auto_20200611_0108.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0012_auto_20200611_0109.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0013_auto_20200611_0109.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0014_auto_20200611_0112.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0015_auto_20200611_0113.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0016_auto_20200611_0117.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0017_auto_20200611_0119.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0018_auto_20200611_0122.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0019_auto_20200611_0123.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0020_auto_20200611_0125.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/migrations/0021_auto_20200611_0126.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/scripts/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/scripts/animating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/post_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/marketing/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/marketing/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myblog/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
