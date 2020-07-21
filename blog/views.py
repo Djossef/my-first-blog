@@ -13,7 +13,6 @@ from marketing.forms import EmailSignupForm
 from blog.forms import CommentForm
 
 
-
 def home(request):
     form = EmailSignupForm()
     return render(request, 'blog/home.html', {'form': form})
@@ -48,3 +47,7 @@ def post_detail(request, post_title):
     post = get_object_or_404(Post, title=post_title)
     comments = Comment.objects.all()
     return render(request, 'blog/post_detail.html', {'post': post, 'comments': comments, 'form': form})
+
+
+def covid_tracker(request):
+    return render(request, 'covid.html')
